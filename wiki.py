@@ -21,9 +21,7 @@
 # scope: Wiki 0.0.1
 
 import asyncio
-import functools
-import openai
-import random
+import wikipedia
 from urllib.parse import quote_plus
 
 import requests
