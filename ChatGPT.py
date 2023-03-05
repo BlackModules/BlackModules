@@ -1,19 +1,24 @@
 # ---------------------------------------------------------------------------------
-# Name: ChatGPT
-# Description: the module uses ChatGPT
-# Author: BlackModules
+# Name: Wikipedia
+# Description: Search in wikipedia
+# Author: @BlackModules
 # Commands:
-# gpt / gpt_img
+# .wiki [lang] [text]
 # ---------------------------------------------------------------------------------
 
-# 🔒    Licensed under the GNU AGPLv3
-# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+
+#                  ▄▄  ▄  ▄
+#                  █▄█ █▙▟█
+#                  █▄█ █  █
+#              © Copyright 2023
+#           https://t.me/BlackModules
+#
+#        Licensed under the GNU AGPLv3
+#   https://www.gnu.org/licenses/agpl-3.0.html
 
 # meta developer: @BlackModules
-# scope: ChatGPT
-# scope: ChatGPT 0.0.1
-# requires: openai
-# ---------------------------------------------------------------------------------
+# scope: Wiki
+# scope: Wiki 0.0.1
 
 import asyncio
 import logging
