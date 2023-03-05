@@ -23,7 +23,6 @@
 import asyncio
 import functools
 import wikipedia
-import random
 from urllib.parse import quote_plus
 
 import requests
