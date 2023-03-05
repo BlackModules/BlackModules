@@ -78,7 +78,7 @@ class ChatGPT(loader.Module):
             temperature=0.5,
         )
         response = completion.choices[0].text
-        await utils.answer(message, f"ChatGPT: " + response + self.strings("quest").format(args=args)})
+        await utils.answer(message,"ChatGPT: ", response + self.strings("quest").format(args=args)})
  
     async def gpt_imgcmd(self, message: Message):
         """<question> - photo for ChatGPT IMG"""
