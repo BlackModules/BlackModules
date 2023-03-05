@@ -1,19 +1,24 @@
-
 # ---------------------------------------------------------------------------------
-# Name: WebShot
-# Description: Create a screenshot of webpage
+# Name: Wikipedia
+# Description: Search in wikipedia
 # Author: @BlackModules
 # Commands:
-# .webshot [link]
-# ---------------------------------------------------------------------------------                      
-            
+# .wiki [lang] [text]
+# ---------------------------------------------------------------------------------
+
+
+#                  ▄▄  ▄  ▄
+#                  █▄█ █▙▟█
+#                  █▄█ █  █
+#              © Copyright 2023
+#           https://t.me/BlackModules
 #
-# 🔒      Licensed under the GNU AGPLv3
-# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+#        Licensed under the GNU AGPLv3
+#   https://www.gnu.org/licenses/agpl-3.0.html
 
 # meta developer: @BlackModules
-# scope: Webshot
-# scope: webshot 0.0.1
+# scope: Wiki
+# scope: Wiki 0.0.1
 
 import asyncio
 import functools
