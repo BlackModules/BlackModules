@@ -1,9 +1,7 @@
 # ---------------------------------------------------------------------------------
-# Name: Wikipedia
-# Description: Search in wikipedia
+# Name: ADCHAT
+# Description: Help with moderation chat
 # Author: @BlackModules
-# Commands:
-# .wiki [lang] [text]
 # ---------------------------------------------------------------------------------
 
 
@@ -111,7 +109,7 @@ class NetfollChat(loader.Module):
     """✉ Модуль для управления чатом"""
 
     strings = {
-        "name": "NetfollChat",
+        "name": "ADCHAT",
         "rules_n": "<b>😪 You didnt make the rules</b>",
         "clicks": "😗 Click",
         "rulesch": "<b>⚠️ Rules for this chat</b>",
