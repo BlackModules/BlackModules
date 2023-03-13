@@ -24,25 +24,15 @@ class Search(loader.Module):
         "search": (
             "<emoji document_id=5188311512791393083>🔎</emoji><b> I searched for information for"
             " you</b>\n"
-        ),
-        "lade": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Searching…</b>",
-        "p-auf": "<b>Oops, problem …</b>",
-        "n-gef": "<b>Sorry, stop, not found… :(</b>",
-        "gef": "<b>Looks like something is found!..</b>",
-        "q": "Query:",
-        "args?": "📝 <b>Where is arguments, young man?</b>",
+        )
+        
     }
     strings_ru = {
         "search": (
             "<emoji document_id=5188311512791393083>🔎</emoji><b> Я поискал информацию за"
             " тебя</b>\n"
-        ),
-        "lade": "<emoji document_id=5188311512791393083>🔎</emoji> <b>Ищу…</b>",
-        "p-auf": "<b>Упс, проблема…</b>",
-        "n-gef": "<b>Жаль, нет, не нашлось… :(</b>",
-        "gef": "<b>Кажется, нашлось!..</b>",
-        "q": "Запрос:",
-        "args?": "📝 <b>И где аргументы, молодой человек?</b>",
+        )
+        
     }
 
     async def googlecmd(self, message: Message):
