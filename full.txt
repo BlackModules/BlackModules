@@ -1,4 +1,4 @@
 webshot
-NetfollChat
+ADCHAT
 ChatGPT
 wiki
